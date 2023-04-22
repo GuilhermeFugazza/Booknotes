@@ -4,21 +4,20 @@ import { Feather } from '@expo/vector-icons'
 import colors from "tailwindcss/colors";
 
 import { BackButton } from "../components/BackButton";
-import { Checkbox } from "../components/Checkbox";
 import { api } from "../lib/axios";
 
 
 export function New() {
-  const [pages, setPages] = useState<number[]>([]);
   const [title, setTitle] = useState('');
   const [autor, setAutor] = useState('');
+  const [editora, setEditora] = useState('');
 
-  async function handleCreateNewBook() {
+  async function CreateNewBook() {
     try {
-      await api.post('/book', { title, pages, autor })
+      await api.post('/book', { title, editora, autor })
 
       setTitle('');
-      setPages([]);
+      setEditora('');
       setAutor('');
 
       Alert.alert('Novo livro adicionado', 'Livro adicionado com sucesso!');
@@ -74,7 +73,7 @@ export function New() {
         <TouchableOpacity
           className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-6"
           activeOpacity={0.7}
-          onPress={handleCreateNewBook}
+          onPress={CreateNewBook}
         >
           <Feather
             name="check"

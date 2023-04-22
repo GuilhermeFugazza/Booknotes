@@ -4,8 +4,11 @@ const { Navigator, Screen } = createNativeStackNavigator();
 
 import { Home } from '../screens/Home';
 import { New } from '../screens/New';
-import { Booknotes } from '../screens/Booknotes';
+import { Booknotes } from '../screens/Book';
 import { Notes } from '../screens/Notes';
+import { FavBooks } from '../screens/FavBooks';
+import { Folders } from '../screens/Folders';
+import { Folder } from '../screens/Folder';
 
 export function AppRoutes() {
   return (
@@ -29,6 +32,22 @@ export function AppRoutes() {
         name="notes"
         component={Notes}
       />
+
+      <Screen
+        name="favbooks"
+        component={FavBooks}
+      />
+
+      <Screen
+        name="folders"
+        component={Folders}
+      />
+
+      <Screen
+        name="folder"
+        component={Folder}
+      />
+
     </Navigator>
   )
 }

@@ -1,5 +1,5 @@
 import { TouchableOpacity } from "react-native";
-import { Feather } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons'; 
 import colors from "tailwindcss/colors";
 import { useNavigation } from "@react-navigation/native";
 
@@ -8,14 +8,18 @@ export function BackButton() {
 
   return (
     <TouchableOpacity 
+      className="pr-16 border-4 border-background"
       activeOpacity={0.7}
       onPress={goBack}
     >
-      <Feather 
-        name="arrow-left"
+
+      <Ionicons 
+        name="ios-return-up-back-outline"
         size={32}
-        color={colors.zinc[400]}
+        color={colors.violet[500]}
       />
+
     </TouchableOpacity>
+
   )
 }

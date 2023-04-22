@@ -7,13 +7,13 @@ export function BookButton() {
 
   return (
     <TouchableOpacity
-          className="w-full h-14 flex-row items-center justify-center bg-violet-700 rounded-md mt-6"
+          className="w-28 h-40 items-center justify-center bg-gray-300 rounded-lg m-2"
           activeOpacity={0.7}
           onPress={() => navigate('book')}
         >
 
-          <Text className="font-semibold text-base text-white ml-2">
-            Nome do livro
+          <Text className="font-semibold text-base text-white m-1">
+            Capa do livro
           </Text>
         </TouchableOpacity>
 
