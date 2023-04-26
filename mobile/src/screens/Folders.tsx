@@ -13,7 +13,7 @@ export function Folders() {
   return (
     <View className='flex-1 bg-background pt-16'>
       <Header />
- 
+
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 50 }}
@@ -25,10 +25,10 @@ export function Folders() {
           <FolderButton />
           <FolderButton />
           <FolderButton />
-          
+
         </View>
       </ScrollView>
-      <OptBar/>
+      <OptBar />
     </View>
   )
 } 

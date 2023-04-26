@@ -47,7 +47,6 @@ export function AppRoutes() {
         name="folder"
         component={Folder}
       />
-
     </Navigator>
   )
 }

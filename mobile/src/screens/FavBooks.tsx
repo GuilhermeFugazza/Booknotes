@@ -27,10 +27,10 @@ export function FavBooks() {
           <BookButton />
           <BookButton />
           <BookButton />
-          
+
         </View>
       </ScrollView>
-      <OptBar/>
+      <OptBar />
     </View>
   )
 } 

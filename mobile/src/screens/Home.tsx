@@ -13,14 +13,13 @@ export function Home() {
 
   return (
     <View className='flex-1 bg-background pt-16'>
-      <View className='w-full flex-row items-top justify-center px-8'>
-        <Logo/>
-      </View>
-
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 50 }}
       >
+        <View className='w-full flex-row items-top justify-center px-8'>
+          <Logo />
+        </View>
 
         <View className='flex-row flex-wrap px-1 justify-start'>
 
@@ -43,10 +42,10 @@ export function Home() {
           <BookButton />
           <BookButton />
           <BookButton />
-          
+
         </View>
       </ScrollView>
-      <OptBar/>
+      <OptBar />
     </View>
   )
 } 

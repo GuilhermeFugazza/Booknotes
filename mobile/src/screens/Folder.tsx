@@ -13,7 +13,7 @@ export function Folder() {
     <View className='flex-1 bg-background pt-16'>
       <Header />
 
-      <Text className="w-full font-semibold text-base text-white mx-1 text-center">
+      <Text className="w-full font-semibold text-lg text-white mx-1 text-center">
         Nome da pasta
       </Text>
       <View className='border border-violet-600 mt-1'></View>
@@ -28,10 +28,10 @@ export function Folder() {
           <BookButton />
           <BookButton />
           <BookButton />
-          
+
         </View>
       </ScrollView>
-      <OptBar/>
+      <OptBar />
     </View>
   )
 } 
