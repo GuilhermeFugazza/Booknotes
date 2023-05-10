@@ -7,7 +7,7 @@ export function OptBar() {
   const { navigate } = useNavigation()
 
   return (
-    <View className="w-full flex-row items-center justify-center border-t border-violet-600 ">
+    <View className="w-full flex-row items-center justify-center border-t border-violet-600">
 
       <TouchableOpacity 
         activeOpacity={0.7}

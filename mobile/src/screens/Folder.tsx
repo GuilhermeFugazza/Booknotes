@@ -16,7 +16,7 @@ export function Folder() {
       <Text className="w-full font-semibold text-lg text-white mx-1 text-center">
         Nome da pasta
       </Text>
-      <View className='border border-violet-600 mt-1'></View>
+      <View className='border-t border-violet-600 mt-1'></View>
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 50 }}
@@ -24,6 +24,19 @@ export function Folder() {
 
         <View className='flex-row flex-wrap px-1 mt-8 justify-start'>
 
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
           <BookButton />
           <BookButton />
           <BookButton />

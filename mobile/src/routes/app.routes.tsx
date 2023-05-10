@@ -5,7 +5,7 @@ const { Navigator, Screen } = createNativeStackNavigator();
 import { Home } from '../screens/Home';
 import { New } from '../screens/New';
 import { Booknotes } from '../screens/Book';
-import { Notes } from '../screens/Notes';
+import { Notes } from '../screens/CreateNotes';
 import { FavBooks } from '../screens/FavBooks';
 import { Folders } from '../screens/Folders';
 import { Folder } from '../screens/Folder';
