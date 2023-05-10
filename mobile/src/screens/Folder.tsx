@@ -28,24 +28,20 @@ export function Folder() {
           <BookButton />
           <BookButton />
           <BookButton />
-<<<<<<< HEAD
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
+          <BookButton />
 
-=======
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          <BookButton />
-          
->>>>>>> e660665 (Create Book page)
         </View>
       </ScrollView>
       <OptBar />
