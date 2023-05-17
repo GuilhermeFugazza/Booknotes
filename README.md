@@ -1,6 +1,6 @@
 # Booknotes
 
-## By Guilherme Fugazza.
+## By Guilherme Fugazza & Beatriz Zanelatto
 
 
 
